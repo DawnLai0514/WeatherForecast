@@ -284,3 +284,15 @@
 2023-06-14 14:37:15: GetAllData
 2023-06-14 14:37:20: FilterWeather 
 2023-06-14 14:37:21: GetAllData
+2023-06-14 15:32:42: GetAllData
+2023-06-14 15:33:26: Sort
+2023-06-14 15:33:26: Sort
+2023-06-14 15:33:27: Sort
+2023-06-14 15:55:15: GetAllData
+2023-06-14 15:57:27: GetAllData
+2023-06-14 15:57:54: GetAllData
+2023-06-14 16:01:52: GetAllData
+2023-06-14 16:02:22: AddData {"Id":0,"Date":"2023-06-14","TemperatureC":31,"TemperatureF":87,"Summary":"Hot"}
+2023-06-14 16:02:23: GetAllData
+2023-06-14 16:16:04: GetAllData
+2023-06-14 16:16:13: GetAllData

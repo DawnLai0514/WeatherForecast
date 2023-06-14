@@ -19,7 +19,6 @@ namespace Project1.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-
         private WeatherInterface _service;
         private IMapper _mapper;
 
@@ -55,6 +54,7 @@ namespace Project1.Controllers
         {
             var log = JsonSerializer.Serialize(res);
             Log("AddData " + log);
+            _logger.LogInformation("GetAllData"+log);
             var map = _mapper.Map<WeatherServiceModel>(res);
             var data = _service.AddData(map);
             var mapr = _mapper.Map<List<WeatherCastRespViewModel>>(data);
@@ -66,6 +66,7 @@ namespace Project1.Controllers
         {
             var data = _service.GetAllData();
             Log("GetAllData");
+            _logger.LogInformation("GetAllData");
             var map = _mapper.Map<List<WeatherCastRespViewModel>>(data);
             return map;
            
