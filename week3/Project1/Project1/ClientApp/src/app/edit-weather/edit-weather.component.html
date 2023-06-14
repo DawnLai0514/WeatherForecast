@@ -1,0 +1,7 @@
+<div *ngIf="isEdit" style="margin-top: 50px;">
+  順序  <input [(ngModel)]="editWeatherId" type="text" name="editWeatherId" value={{editWeatherId}} readonly="readonly" />
+  日期  <input [(ngModel)]="editWeatherDate" type="text" name="editWeatherDate" value={{editWeatherDate}} />
+  溫度  <input [(ngModel)]="editWeatherTemC" type="text" name="editWeatherTemC" value={{editWeatherTemC}} />
+  天氣  <input [(ngModel)]="editWeatherSummary" type="text" name="editWeatherSummary" value={{editWeatherSummary}} />
+  <button (click)="editWeather()">修改資料</button>
+</div>

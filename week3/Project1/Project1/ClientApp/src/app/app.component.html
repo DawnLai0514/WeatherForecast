@@ -1,0 +1,8 @@
+<h1 id="tableLabel">Weather forecast</h1>
+<nav>
+  <button routerLink="/weather">全部資料</button>
+  <button routerLink="/add">新增資料</button>
+  <input [(ngModel)]="filterTem" type="text" name="filterTem" placeholder="Summary" />
+  <button [routerLink]="['/filter', filterTem]">搜尋</button>
+</nav>
+<router-outlet></router-outlet>

@@ -1,0 +1,286 @@
+2023-06-13 11:40:39: GetAllData
+2023-06-13 11:40:45: AddData {"Id":0,"Date":"1","TemperatureC":0,"TemperatureF":32,"Summary":"1"}
+2023-06-13 11:40:49: Headers資料: TEST
+2023-06-13 11:40:49: DeleteData{"Id":12,"Date":"1","TemperatureC":0,"TemperatureF":32,"Summary":"1"}
+2023-06-13 13:29:03: GetAllData
+2023-06-13 13:37:36: GetAllData
+2023-06-13 13:41:29: GetAllData
+2023-06-13 13:49:10: GetAllData
+2023-06-13 13:49:58: GetAllData
+2023-06-13 13:52:11: GetAllData
+2023-06-13 13:53:09: GetAllData
+2023-06-13 13:53:17: GetAllData
+2023-06-13 13:53:20: GetAllData
+2023-06-13 13:54:24: GetAllData
+2023-06-13 13:55:45: GetAllData
+2023-06-13 13:56:26: GetAllData
+2023-06-13 13:56:44: GetAllData
+2023-06-13 13:56:49: AddData {"Id":0,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-13 13:56:50: GetAllData
+2023-06-13 13:58:08: AddData {"Id":0,"Date":"12","TemperatureC":0,"TemperatureF":32,"Summary":"12"}
+2023-06-13 13:58:08: GetAllData
+2023-06-13 13:58:13: GetAllData
+2023-06-13 13:58:21: AddData {"Id":0,"Date":"13","TemperatureC":0,"TemperatureF":32,"Summary":"13"}
+2023-06-13 13:58:21: GetAllData
+2023-06-13 13:58:29: GetAllData
+2023-06-13 14:00:04: GetAllData
+2023-06-13 14:00:10: Headers資料: TEST
+2023-06-13 14:00:10: DeleteData{"Id":14,"Date":"13","TemperatureC":0,"TemperatureF":32,"Summary":"13"}
+2023-06-13 14:00:19: GetAllData
+2023-06-13 14:01:24: GetAllData
+2023-06-13 14:01:28: GetAllData
+2023-06-13 14:01:31: Headers資料: TEST
+2023-06-13 14:01:31: DeleteData{"Id":13,"Date":"12","TemperatureC":0,"TemperatureF":32,"Summary":"12"}
+2023-06-13 14:01:35: AddData {"Id":0,"Date":"44","TemperatureC":0,"TemperatureF":32,"Summary":"44"}
+2023-06-13 14:01:35: GetAllData
+2023-06-13 14:01:40: GetAllData
+2023-06-13 14:01:49: AddData {"Id":0,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-13 14:01:49: GetAllData
+2023-06-13 14:02:18: GetAllData
+2023-06-13 14:02:24: GetAllData
+2023-06-13 14:02:24: AddData {"Id":0,"Date":"66","TemperatureC":66,"TemperatureF":150,"Summary":"66"}
+2023-06-13 14:02:27: GetAllData
+2023-06-13 14:02:33: Headers資料: TEST
+2023-06-13 14:02:33: DeleteData{"Id":15,"Date":"66","TemperatureC":66,"TemperatureF":150,"Summary":"66"}
+2023-06-13 14:02:36: Headers資料: TEST
+2023-06-13 14:02:36: DeleteData{"Id":14,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-13 14:02:38: Headers資料: TEST
+2023-06-13 14:02:38: DeleteData{"Id":13,"Date":"44","TemperatureC":0,"TemperatureF":32,"Summary":"44"}
+2023-06-13 14:02:42: AddData {"Id":0,"Date":"22","TemperatureC":0,"TemperatureF":32,"Summary":"22"}
+2023-06-13 14:02:42: GetAllData
+2023-06-13 14:07:39: GetAllData
+2023-06-13 14:07:42: Headers資料: TEST
+2023-06-13 14:07:42: DeleteData{"Id":13,"Date":"22","TemperatureC":0,"TemperatureF":32,"Summary":"22"}
+2023-06-13 14:07:46: AddData {"Id":0,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"22"}
+2023-06-13 14:07:46: GetAllData
+2023-06-13 14:07:50: GetAllData
+2023-06-13 14:10:07: GetAllData
+2023-06-13 14:11:19: AddData {"Id":0,"Date":"33","TemperatureC":33,"TemperatureF":91,"Summary":"33"}
+2023-06-13 14:11:19: GetAllData
+2023-06-13 14:11:44: GetAllData
+2023-06-13 14:11:47: AddData {"Id":0,"Date":"44","TemperatureC":0,"TemperatureF":32,"Summary":"44"}
+2023-06-13 14:11:47: GetAllData
+2023-06-13 14:15:22: GetAllData
+2023-06-13 14:15:37: AddData {"Id":0,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-13 14:15:39: GetAllData
+2023-06-13 14:16:20: GetAllData
+2023-06-13 14:16:31: AddData {"Id":0,"Date":"66","TemperatureC":0,"TemperatureF":32,"Summary":"66"}
+2023-06-13 14:16:32: GetAllData
+2023-06-13 14:17:49: GetAllData
+2023-06-13 14:17:52: Headers資料: TEST
+2023-06-13 14:17:52: DeleteData{"Id":17,"Date":"66","TemperatureC":0,"TemperatureF":32,"Summary":"66"}
+2023-06-13 14:17:53: Headers資料: TEST
+2023-06-13 14:17:53: DeleteData{"Id":16,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-13 14:17:55: Headers資料: TEST
+2023-06-13 14:17:55: DeleteData{"Id":15,"Date":"44","TemperatureC":0,"TemperatureF":32,"Summary":"44"}
+2023-06-13 14:17:57: Headers資料: TEST
+2023-06-13 14:17:57: DeleteData{"Id":14,"Date":"33","TemperatureC":33,"TemperatureF":91,"Summary":"33"}
+2023-06-13 14:17:58: Headers資料: TEST
+2023-06-13 14:17:58: DeleteData{"Id":13,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"22"}
+2023-06-13 14:18:02: AddData {"Id":0,"Date":"22","TemperatureC":0,"TemperatureF":32,"Summary":"22"}
+2023-06-13 14:18:02: GetAllData
+2023-06-13 14:18:08: GetAllData
+2023-06-13 14:18:13: FilterWeather 
+2023-06-13 14:18:16: FilterWeather 
+2023-06-13 14:18:21: FilterWeather 
+2023-06-13 14:18:24: FilterWeather 
+2023-06-13 15:06:26: GetAllData
+2023-06-13 15:06:52: Headers資料: TEST
+2023-06-13 15:06:52: DeleteData{"Id":13,"Date":"22","TemperatureC":0,"TemperatureF":32,"Summary":"22"}
+2023-06-13 15:06:55: GetAllData
+2023-06-13 15:18:36: GetAllData
+2023-06-13 15:18:39: FilterWeather 
+2023-06-13 15:18:47: FilterWeather 
+2023-06-13 15:18:49: GetAllData
+2023-06-13 15:18:51: FilterWeather 
+2023-06-13 15:18:54: FilterWeather 
+2023-06-13 15:23:35: GetAllData
+2023-06-13 15:23:39: FilterWeather 
+2023-06-13 15:24:44: GetAllData
+2023-06-13 16:02:08: GetAllData
+2023-06-13 16:05:19: GetAllData
+2023-06-13 16:05:23: GetAllData
+2023-06-13 16:07:27: GetAllData
+2023-06-13 16:08:05: GetAllData
+2023-06-13 16:08:53: GetAllData
+2023-06-13 16:17:22: GetAllData
+2023-06-13 16:18:30: GetAllData
+2023-06-13 16:19:09: GetAllData
+2023-06-13 16:29:29: GetAllData
+2023-06-13 16:30:19: GetAllData
+2023-06-13 16:32:02: GetAllData
+2023-06-13 16:32:36: GetAllData
+2023-06-13 16:32:52: FilterWeather 
+2023-06-13 16:36:21: GetAllData
+2023-06-13 16:36:28: FilterWeather 
+2023-06-13 16:38:17: GetAllData
+2023-06-13 16:38:20: FilterWeather 
+2023-06-13 16:38:50: GetAllData
+2023-06-13 16:38:52: FilterWeather 
+2023-06-13 16:38:59: GetAllData
+2023-06-13 16:39:03: FilterWeather 
+2023-06-13 16:39:06: Headers資料: TEST
+2023-06-13 16:39:06: DeleteData{"Id":12,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-13 16:39:09: GetAllData
+2023-06-13 16:41:11: GetAllData
+2023-06-13 16:41:16: AddData {"Id":0,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-13 16:41:16: GetAllData
+2023-06-13 16:41:19: FilterWeather 
+2023-06-13 16:41:21: Headers資料: TEST
+2023-06-13 16:41:21: DeleteData{"Id":12,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-13 16:41:21: GetAllData
+2023-06-13 16:41:26: AddData {"Id":0,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-13 16:41:27: GetAllData
+2023-06-13 16:41:28: FilterWeather 
+2023-06-13 16:41:31: GetAllData
+2023-06-13 16:44:58: GetAllData
+2023-06-13 16:49:55: GetAllData
+2023-06-13 16:49:58: FilterWeather 
+2023-06-13 17:00:06: GetAllData
+2023-06-13 17:01:17: GetAllData
+2023-06-13 17:01:27: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"22"}
+2023-06-13 17:01:27: GetAllData
+2023-06-13 17:01:35: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"22"}
+2023-06-13 17:01:36: GetAllData
+2023-06-13 17:01:42: GetAllData
+2023-06-13 17:01:47: UpdateData {"Id":11,"Date":"2023-06-10","TemperatureC":22,"TemperatureF":71,"Summary":"Freezing"}
+2023-06-13 17:01:48: GetAllData
+2023-06-13 17:03:01: GetAllData
+2023-06-13 17:03:05: FilterWeather 
+2023-06-13 17:03:10: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"24"}
+2023-06-13 17:03:10: GetAllData
+2023-06-13 17:24:58: GetAllData
+2023-06-13 17:25:02: GetAllData
+2023-06-13 17:25:07: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"25"}
+2023-06-13 17:25:07: GetAllData
+2023-06-13 17:59:47: GetAllData
+2023-06-13 17:59:51: FilterWeather 
+2023-06-13 17:59:53: GetAllData
+2023-06-14 09:40:18: GetAllData
+2023-06-14 09:40:24: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"22"}
+2023-06-14 09:40:24: GetAllData
+2023-06-14 09:40:27: FilterWeather 
+2023-06-14 09:40:29: GetAllData
+2023-06-14 09:40:34: AddData {"Id":0,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-14 09:40:35: GetAllData
+2023-06-14 09:40:39: Headers資料: TEST
+2023-06-14 09:40:39: DeleteData{"Id":13,"Date":"11","TemperatureC":0,"TemperatureF":32,"Summary":"11"}
+2023-06-14 09:40:44: Sort
+2023-06-14 09:40:44: Sort
+2023-06-14 09:49:51: GetAllData
+2023-06-14 09:49:54: GetAllData
+2023-06-14 09:56:10: GetAllData
+2023-06-14 09:56:43: FilterWeather 
+2023-06-14 09:56:46: GetAllData
+2023-06-14 10:17:06: GetAllData
+2023-06-14 10:17:13: AddData {"Id":0,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:19:10: GetAllData
+2023-06-14 10:19:15: AddData {"Id":0,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:23:11: GetAllData
+2023-06-14 10:23:15: AddData {"Id":0,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:27:04: GetAllData
+2023-06-14 10:27:08: AddData {"Id":0,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:28:45: GetAllData
+2023-06-14 10:28:49: AddData {"Id":0,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:29:07: GetAllData
+2023-06-14 10:30:57: GetAllData
+2023-06-14 10:36:08: GetAllData
+2023-06-14 10:36:13: Sort
+2023-06-14 10:36:14: Sort
+2023-06-14 10:37:19: GetAllData
+2023-06-14 10:37:21: Headers資料: TEST
+2023-06-14 10:37:21: DeleteData{"Id":13,"Date":"14","TemperatureC":14,"TemperatureF":57,"Summary":"14"}
+2023-06-14 10:38:10: GetAllData
+2023-06-14 10:38:15: FilterWeather 
+2023-06-14 10:39:01: GetAllData
+2023-06-14 10:39:04: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"20"}
+2023-06-14 10:39:05: GetAllData
+2023-06-14 10:47:06: GetAllData
+2023-06-14 10:47:14: AddData {"Id":0,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-14 10:47:15: GetAllData
+2023-06-14 10:49:03: GetAllData
+2023-06-14 10:49:07: Sort
+2023-06-14 10:49:07: Sort
+2023-06-14 10:49:08: Sort
+2023-06-14 10:49:09: Sort
+2023-06-14 10:49:11: Headers資料: TEST
+2023-06-14 10:49:11: DeleteData{"Id":13,"Date":"55","TemperatureC":0,"TemperatureF":32,"Summary":"55"}
+2023-06-14 10:50:55: GetAllData
+2023-06-14 10:51:00: FilterWeather 
+2023-06-14 10:51:06: UpdateData {"Id":8,"Date":"2022-01-01","TemperatureC":15,"TemperatureF":58,"Summary":"Cool"}
+2023-06-14 10:51:06: GetAllData
+2023-06-14 10:51:12: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"25"}
+2023-06-14 10:51:12: GetAllData
+2023-06-14 11:36:19: GetAllData
+2023-06-14 13:33:25: GetAllData
+2023-06-14 13:34:18: GetAllData
+2023-06-14 13:34:22: FilterWeather 
+2023-06-14 13:34:43: GetAllData
+2023-06-14 13:35:44: GetAllData
+2023-06-14 13:35:55: FilterWeather 
+2023-06-14 13:35:57: GetAllData
+2023-06-14 13:36:02: FilterWeather 
+2023-06-14 14:06:42: GetAllData
+2023-06-14 14:06:46: FilterWeather 
+2023-06-14 14:06:47: GetAllData
+2023-06-14 14:06:58: GetAllData
+2023-06-14 14:07:09: Sort
+2023-06-14 14:07:10: Sort
+2023-06-14 14:07:10: Sort
+2023-06-14 14:07:11: Sort
+2023-06-14 14:07:11: Sort
+2023-06-14 14:07:25: AddData {"Id":0,"Date":"12","TemperatureC":12,"TemperatureF":53,"Summary":"12"}
+2023-06-14 14:07:26: GetAllData
+2023-06-14 14:07:40: GetAllData
+2023-06-14 14:07:45: UpdateData {"Id":13,"Date":"12","TemperatureC":555,"TemperatureF":1030,"Summary":"12"}
+2023-06-14 14:07:46: GetAllData
+2023-06-14 14:07:51: Headers資料: TEST
+2023-06-14 14:07:51: DeleteData{"Id":13,"Date":"12","TemperatureC":555,"TemperatureF":1030,"Summary":"12"}
+2023-06-14 14:10:11: GetAllData
+2023-06-14 14:10:15: GetAllData
+2023-06-14 14:10:18: GetAllData
+2023-06-14 14:10:33: GetAllData
+2023-06-14 14:10:34: UpdateData {"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"25"}
+2023-06-14 14:10:43: GetAllData
+2023-06-14 14:12:33: GetAllData
+2023-06-14 14:12:36: GetAllData
+2023-06-14 14:12:39: GetAllData
+2023-06-14 14:13:14: GetAllData
+2023-06-14 14:13:16: GetAllData
+2023-06-14 14:13:20: GetAllData
+2023-06-14 14:13:22: GetAllData
+2023-06-14 14:13:30: AddData {"Id":0,"Date":"213","TemperatureC":0,"TemperatureF":32,"Summary":"321"}
+2023-06-14 14:13:30: GetAllData
+2023-06-14 14:13:34: GetAllData
+2023-06-14 14:13:39: AddData {"Id":0,"Date":"1","TemperatureC":0,"TemperatureF":32,"Summary":"1"}
+2023-06-14 14:13:40: GetAllData
+2023-06-14 14:13:42: Headers資料: TEST
+2023-06-14 14:13:42: DeleteData{"Id":14,"Date":"1","TemperatureC":0,"TemperatureF":32,"Summary":"1"}
+2023-06-14 14:13:44: Headers資料: TEST
+2023-06-14 14:13:44: DeleteData{"Id":13,"Date":"213","TemperatureC":0,"TemperatureF":32,"Summary":"321"}
+2023-06-14 14:14:01: GetAllData
+2023-06-14 14:14:07: AddData {"Id":0,"Date":"23","TemperatureC":0,"TemperatureF":32,"Summary":"32"}
+2023-06-14 14:14:07: GetAllData
+2023-06-14 14:14:20: UpdateData {"Id":13,"Date":"23","TemperatureC":10000,"TemperatureF":18030,"Summary":"32"}
+2023-06-14 14:14:20: GetAllData
+2023-06-14 14:14:23: Headers資料: TEST
+2023-06-14 14:14:23: DeleteData{"Id":13,"Date":"23","TemperatureC":10000,"TemperatureF":18030,"Summary":"32"}
+2023-06-14 14:14:24: Sort
+2023-06-14 14:14:24: Sort
+2023-06-14 14:14:25: Sort
+2023-06-14 14:14:25: Sort
+2023-06-14 14:14:26: Sort
+2023-06-14 14:14:34: FilterWeather 
+2023-06-14 14:14:38: FilterWeather 
+2023-06-14 14:14:42: GetAllData
+2023-06-14 14:14:50: Headers資料: TEST
+2023-06-14 14:14:50: DeleteData{"Id":12,"Date":"22","TemperatureC":22,"TemperatureF":71,"Summary":"25"}
+2023-06-14 14:15:05: FilterWeather 
+2023-06-14 14:15:09: GetAllData
+2023-06-14 14:15:23: GetAllData
+2023-06-14 14:36:55: GetAllData
+2023-06-14 14:37:07: FilterWeather 
+2023-06-14 14:37:08: GetAllData
+2023-06-14 14:37:15: GetAllData
+2023-06-14 14:37:20: FilterWeather 
+2023-06-14 14:37:21: GetAllData

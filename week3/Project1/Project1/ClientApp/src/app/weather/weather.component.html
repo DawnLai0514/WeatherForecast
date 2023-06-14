@@ -1,0 +1,73 @@
+<div *ngIf="!isFilter">
+  <table style="border: 1px solid black; margin: 30px 0 0 30px;">
+    <thead>
+      <tr>
+        <td width="100px">Id</td>
+        <td width="200px" (click)="sort('date')">Date</td>
+        <td width="100px" (click)="sort('temperature')">TemC</td>
+        <td width="100px" (click)="sort('temperature')">TemF</td>
+        <td width="200px" (click)="sort('summary')">Summary</td>
+        <td width="200px">Action</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let weather of weatherArray">
+        <td>{{weather.id}}</td>
+        <td>{{weather.date}}</td>
+        <td>{{weather.temperatureC}}</td>
+        <td>{{weather.temperatureF}}</td>
+        <td>{{weather.summary}}</td>
+        <td>
+          <button [routerLink]="['/edit', weather.id, weather.date, weather.temperatureC, weather.summary]">修改</button>
+          <button (click)="deleteWeather(weather.id)">刪除</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="isCreate " style="margin-top: 50px;">
+  <input [(ngModel)]="newWeatherDate" type="text" placeholder="Weather Date" />
+  <input [(ngModel)]="newWeatherTemC" type="text" placeholder="Weather TemperatureC" />
+  <input [(ngModel)]="newWeatherSummary" type="text" placeholder="Weather Summary" />
+  <button (click)="createNewWeather()">新增資料</button>
+</div>
+<div *ngIf="isEdit" style="margin-top: 50px;">
+  順序  <input [(ngModel)]="editWeatherId" type="text" name="editWeatherId" value={{editWeatherId}} readonly="readonly" />
+  日期  <input [(ngModel)]="editWeatherDate" type="text" name="editWeatherDate" value={{editWeatherDate}} />
+  溫度  <input [(ngModel)]="editWeatherTemC" type="text" name="editWeatherTemC" value={{editWeatherTemC}} />
+  天氣  <input [(ngModel)]="editWeatherSummary" type="text" name="editWeatherSummary" value={{editWeatherSummary}} />
+  <button (click)="editWeather()">修改資料</button>
+</div>
+
+
+<div *ngIf="isFilter">
+  <table style="border: 1px solid black; margin: 30px 0 0 30px;">
+    <thead>
+      <tr>
+        <td width="100px">Id</td>
+        <td width="200px">Date</td>
+        <td width="100px">TemC</td>
+        <td width="100px">TemF</td>
+        <td width="200px">Summary</td>
+        <td width="200px">Action</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let weather of selectArray">
+        <td>{{weather.id}}</td>
+        <td>{{weather.date}}</td>
+        <td>{{weather.temperatureC}}</td>
+        <td>{{weather.temperatureF}}</td>
+        <td>{{weather.summary}}</td>
+        <td>
+          <button (click)="edit(weather.id, weather.date, weather.temperatureC, weather.summary)">修改</button>
+          <button (click)="deleteWeather(weather.id)">刪除</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--<button (click)="isFilter=false;">所有資料</button>-->
+</div>
+
+
