@@ -26,7 +26,7 @@ namespace Project1
         {
             services.AddScoped<IWeatherRepository, WeatherRepository>();
             services.AddDbContext<MyDBContext>();
-            services.AddScoped<WeatherInterface, WeatherService>();
+            services.AddScoped<IWeatherService, WeatherService>();
             services.AddSwaggerGen();
             services.AddAutoMapper(typeof(Startup));
             services.AddControllersWithViews();

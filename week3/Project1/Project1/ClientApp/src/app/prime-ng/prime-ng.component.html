@@ -1,0 +1,28 @@
+<p>prime-ng works!</p>
+<div>
+  <h5>PrimeNG Table Sort</h5>
+  <p-table [value]="Array">
+    <ng-template pTemplate="header">
+      <tr>
+        <th pSortableColumn="id">Id <p-sortIcon field="id"></p-sortIcon></th>
+        <th pSortableColumn="date">Date <p-sortIcon field="date"></p-sortIcon></th>
+        <th pSortableColumn="tempC">TemC <p-sortIcon field="tempC"></p-sortIcon></th>
+        <th pSortableColumn="tempF">TemF <p-sortIcon field="tempF"></p-sortIcon></th>
+        <th pSortableColumn="summary">Summary <p-sortIcon field="summary"></p-sortIcon></th>
+        <th>Action </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-weather>
+      <tr>
+        <td>{{weather.id}}</td>
+        <td>{{weather.date}} </td>
+        <td>{{weather.tempC}} </td>
+        <td>{{weather.tempF}} </td>
+        <td>{{weather.summary}} </td>
+        <td>
+
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

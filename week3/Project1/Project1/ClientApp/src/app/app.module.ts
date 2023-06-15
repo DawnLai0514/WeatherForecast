@@ -11,6 +11,10 @@ import { Modal2Component } from './modal2/modal2.component';
 import { AddWeatherComponent } from './add-weather/add-weather.component';
 import { FilterWeatherComponent } from './filter-weather/filter-weather.component';
 import { EditWeatherComponent } from './edit-weather/edit-weather.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TableModule } from 'primeng/table';
+import { PrimeNGComponent } from './prime-ng/prime-ng.component';
+
 
 @NgModule({
   declarations: [
@@ -20,14 +24,17 @@ import { EditWeatherComponent } from './edit-weather/edit-weather.component';
     Modal2Component,
     AddWeatherComponent,
     FilterWeatherComponent,
-    EditWeatherComponent
+    EditWeatherComponent,
+    PrimeNGComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    TableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,7 +6,7 @@ using Project1.ServiceModel;
 
 namespace Project1.Interface
 {
-    public interface WeatherInterface
+    public interface IWeatherService
     {
 
         public List<WeatherRespServiceModel> AddData(WeatherServiceModel res);

@@ -19,10 +19,10 @@ namespace Project1.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        private WeatherInterface _service;
+        private IWeatherService _service;
         private IMapper _mapper;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, WeatherInterface service, IMapper mapper)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IWeatherService service, IMapper mapper)
         {
             _logger = logger;
             _service = service;

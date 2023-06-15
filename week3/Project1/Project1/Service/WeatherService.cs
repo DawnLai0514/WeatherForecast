@@ -11,7 +11,7 @@ using Project1.DAO;
 
 namespace Project1.Service
 {
-    public class WeatherService: WeatherInterface
+    public class WeatherService: IWeatherService
     {
         private readonly IWeatherRepository _weatherRepository;
         private MyDBContext _context;

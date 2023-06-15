@@ -9,6 +9,7 @@ import { ModalComponent } from '../modal/modal.component';
 import { Modal2Component } from '../modal2/modal2.component';
 import { DataService } from '../data.service';
 
+
 @Component({
   selector: 'app-weather',
   templateUrl: './weather.component.html',
